@@ -15,7 +15,7 @@ public class prac {
     
 		driver.get("https://demo.automationtesting.in/Alerts.html");
 		
-	   driver.findElement(By.xpath("<button class=\"btn btn-danger" onclick="alertbox()">"));
+	   driver.findElement(By.xpath("//"[@id=\ <button class=\"btn btn-danger" ").click();
 	   
 		
 		Alert alert = driver.switchTo().alert();
